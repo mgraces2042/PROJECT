@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, :after, :before {
+    background-repeat: no-repeat;
+    box-sizing: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+body {
+    color: #383e45;
+    font-size: 0.9rem;
+}
+
+
+
+section {
+    display: block;
+    text-align:center;
+    margin: 0 240px 100px 240px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.profile {
+    width: 120px;
+    line-height: 1px;
+    padding: 10px 0;
+}
+
+.profile a {
+    display: block;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+#mainvisual img {
+    width: 100%;
+    max-width: 1920px;
+    height: 600px;
+    object-fit: cover;
+    margin-bottom:80px;
+}
+
+#header ul {
+    display: flex;
+    padding: 10px 0;
+}
+
+#header li {
+    margin-left: 30px;
+}
+
+#header li a {
+    color: #24292e;
+}
+
+.wrapper {
+    max-width: 844px;
+    margin: 0 240px!important;
+    padding: 0 57.594px;
+    text-align: center;
+}
+
+.about-title,
+.bicycle-title {
+    display: inline-block;
+    font-size: 32px;
+    margin-bottom: 60px;
+    border-bottom: solid 1px #383e45;
+    text-align: center;
+}
+
+#about .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+#about .content-intro {
+    text-align: left;
+}
+
+.name {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* bicycle */
+
+section#bicycle {
+    margin:auto;
+}
+#bicycle ul {
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    width:844px;
+    align-items: center;
+    margin-bottom:100px;
+}
+
+#bicycle li {
+    width: 32%;
+}
+
+.content-title {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+#bicycle ul li img {
+    height:179px;
+    width:270px;
+}
+
+#footer {
+    font-size: 0.5rem;
+    padding: 10px 0;
+    text-align: center;
+}
