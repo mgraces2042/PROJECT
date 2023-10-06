@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style:none;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content:space-between;
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 270px;
+    margin: 0 240px;
+    padding: 0 58px;
+}
+
+#header li {
+    font-size: 0.9rem;
+    margin-left: 30px;
+}
+
+#header ul {
+    display: flex;
+}
+
+ul a {
+    color: black;
+    text-decoration: none;
+}
+
+li a img {
+    width: 20px;
+}
+img {
+    max-width: 100%;
+}
+
+#mainvisual img {
+    width: 100%;
+    max-width: 1920px;
+    height: 420px;
+    object-fit: cover;
+    margin-bottom:80px;
+}
+
+
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 240px 130px 240px;
+    font-size: 0.9rem;
+    padding: 0 57.5px;
+
+}
+
+.sec-title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+#about ul {
+    margin-bottom: 30px;
+}
+
+#about li:first-child {
+    margin-bottom: 30px;
+}
+
+#works ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+#works li {
+    width: 31%;
+    margin-bottom: 23px;
+    /* justify-content:space-between; */
+}
+
+#news dl {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: solid 1px #c8c8c8;
+    margin-bottom: 20px;
+}
+
+#news dt {
+    /* width: 20%; */
+    border-bottom: solid 1px #c8c8c8;
+    padding: 15px;
+    padding-right: 37px;
+}
+
+#news dd {
+    float: right;
+    width: 80%;
+    border-bottom: solid 1px #c8c8c8;
+    padding: 15px;
+}
+
+#contact dl {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#contact dt {
+    width: 15%;
+}
+
+#contact dd {
+    width: 85%;
+    margin-bottom: 10px;
+}
+
+#contact dd input, #contact dd textarea {
+    width: 100%;
+    border: solid 1px #c8c8c8;
+    padding: 10px;
+}
+
+#contact dd input, #contact dd textarea {
+    width: 100%;
+    border: solid 1px #c8c8c8;
+    padding: 10px;
+}
+
+#contact dd {
+    width: 85%;
+    margin-bottom: 10px;
+}
+
+#contact dd textarea {
+    height: 10rem;
+}
+
+#contact .button {
+    text-align: center;
+}
+
+#contact .button input {
+    width: 200px;
+    background-color: #24292e;
+    color: #fff;
+    padding: 15px 0;
+    border: solid 1px #24292e;
+}
+#footer {
+    background-color: #24292e;
+    color: #fff;
+    font-size: 0.5rem;
+    padding: 10px 20px;
+    text-align: center;
+}
