@@ -128,7 +128,6 @@ p {
 }
 
 /* bicycle */
-
 section#bicycle {
     margin:auto;
 }
@@ -159,4 +158,48 @@ section#bicycle {
     font-size: 0.5rem;
     padding: 10px 0;
     text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+
+    .wrapper {
+        padding: 0px;
+        margin: 0px!important;
+        overflow: hidden;
+    }
+
+    main {
+        overflow: hidden;
+    }
+
+    #header {
+        padding:0 20px;
+    }
+
+    section {
+        padding:0 20px;
+        /* display: flex; */
+        text-align: center;
+        margin: 0px;
+    }
+
+    .content {
+        display:flex;
+        flex-flow: column;
+    }
+
+    section#bicycle {
+        margin-top:50px;
+    }
+
+    #bicycle ul {
+        display: initial;
+        margin:0px;
+    }
+
+    #bicycle ul li{
+        width: 100%;
+    }
+
+
 }
