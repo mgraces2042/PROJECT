@@ -4,25 +4,23 @@
 <meta charset="utf-8">
 <title>サイトタイトル</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel=stylesheet href="../css/style.css">
-
-
+<link rel="stylesheet" href="../css/style.css">
+<script src="../product.js" defer></script>
 </head>
 <body>
     <header id="header" class="wrapper">
         <div class="site-title">
-            <a href="#">
+            <a href="./index.html">
                 <img src="../img/logo.svg">
             </a>
         </div>
         <div class="hamburger-menu">
             <input type="checkbox" id="menu-btn-check">
             <label for="menu-btn-check" class="menu-btn"><span></span></label>
-            <!--ここからメニュー-->
             <div class="menu-content">
                 <ul>
                     <li>
-                        <a href="./product.html">PRODUCTS</a>
+                        <a href="./products.html">PRODUCTS</a>
                     </li>
                     <li>
                         <a href="./about.html">ABOUT</a>
@@ -41,6 +39,7 @@
 
      <main>
          <div class="content wrapper">
+             <h1 class="products-title">Products</h1>
              <ul class="products-ul">
                  <li>
                      <a href="./product.html?item1">
@@ -98,50 +97,29 @@
                        <p class="product-p">¥99,999 +tax</p>
                     </a>
                 </li>
-                <li>
-                    <a href="./product.html?item9">
-                       <img src="../img/item9.jpg">
-                       <p class="product-p">プロダクトタイトルプロダクトタイトル</p>
-                       <p class="product-p">¥99,999 +tax</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="./product.html?item10">
-                       <img src="../img/item10.jpg">
-                       <p class="product-p">プロダクトタイトルプロダクトタイトル</p>
-                       <p class="product-p">¥99,999 +tax</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="./product.html?item11">
-                       <img src="../img/item11.jpg">
-                       <p class="product-p">プロダクトタイトルプロダクトタイトル</p>
-                       <p class="product-p">¥99,999 +tax</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="./product.html?item12">
-                       <img src="../img/item12.jpg">
-                       <p class="product-p">プロダクトタイトルプロダクトタイトル</p>
-                       <p class="product-p">¥99,999 +tax</p>
-                    </a>
-                </li>
              </ul>
-             <div class="view">
-                 <a href="./products.html">View more</a>
-            </div>
-         </div>
+             <ul class="pagination">
+                 <li>
+                    <a href="./products.html">1</a>
+                </li>
+                 <li>2</li>
+             </ul>
+             <ul class="mobile">
+                <li>
+                    <a href="./products.html">1</a></li>
+                <li>2</li>
+            </ul>
      </main>
      <footer id="footer" class="wrapper">
          <nav class="footer-nav">
              <li>
-                 <a href="https://www.instagram.com/">INSTAGRAM</a>
+                 <a>INSTAGRAM</a>
              </li>
              <li>
-                <a href="https://twitter.com/">X</a>
+                <a>TWITTER</a>
             </li>
             <li>
-                <a href="https://www.facebook.com/">FACEBOOK</a>
+                <a>FACEBOOK</a>
             </li>
          </nav>
          <p class="footer-p">© Furniture Design</p>

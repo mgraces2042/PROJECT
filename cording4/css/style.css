@@ -37,7 +37,9 @@ img {
     padding: 0 40px;
 }
 
-
+.mobile {
+    display: none;
+}
 
 /* header */
 #header {
@@ -207,8 +209,11 @@ ul.pagination li {
     padding:0 20px;
 }
 
-.mobile {
-    display: none;
+
+
+
+.view {
+    text-align: center;
 }
 
 /* footer */
@@ -271,9 +276,15 @@ footer li {
     }
 
     .mobile {
-        margin-left:110px;
         font-size:14px;
-        display:initial;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .mobile li {
+        margin:0 20px;
+        
     }
 
     nav.footer-nav {
