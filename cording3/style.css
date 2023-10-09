@@ -101,8 +101,6 @@ h2.article-title a{
 
 }
 
-
-
 .readmore a {
     padding-bottom: 1px;
     color: #333;
@@ -308,4 +306,93 @@ aside {
 
 .item a {
     text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+
+    nav#navi ul {
+        padding: 0 16px;
+        overflow-x: scroll;
+    }
+
+    #navi ul li {
+        width: 100%;
+        font-size: 0.875rem;
+        margin: 10px 10px 10px 0;
+    }
+
+    #navi li {
+        white-space: nowrap;
+        padding:0 40px 0 0;
+    }
+
+    #main {
+        padding:0px 20px;
+    }
+
+    #pickup {
+        padding:0px 10px;
+    }
+    .wrapper {
+        padding: 0px;
+        margin: 0px!important;
+        overflow: hidden;
+    }
+
+    ul.wrapper {
+        height: 40px;
+    }
+
+    nav#navi {
+        height: 40px;
+    }
+
+    #navi ul {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #pickup {
+        display:initial;
+    }
+
+    #pickup article {
+        width: 100%;
+        overflow: hidden;
+        margin:50px 0px;
+    }
+
+    #container.wrapper {
+        width: 100%;
+        display:initial;
+    }
+
+    main {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #sidebar {
+        width: 100%;
+        overflow: hidden;
+        padding: 0px;
+        margin-left: 0px;
+    }
+
+    #footer {
+        padding:0px 20px;
+    }
+    #footer .content {
+        display: initial;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    section.item {
+        width: 100%!important;
+        padding-top:50px;
+    }
+
+
 }
