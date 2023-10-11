@@ -264,7 +264,8 @@ ul#pick-card li{
 footer {
     color:white;
     background-color: black;
-    height:565px;
+    height: 100%;
+    /* height:565px; */
 }
 
 #contact .contact-item {
@@ -321,6 +322,72 @@ dl {
  margin-bottom:0px!important;
 }
 
-/* input[type="text"]{
-    font-size: 150%;
-} */
+@media screen and (max-width: 900px) {
+
+    body {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    main {
+        height: 5000px;
+        flex-shrink: 0;
+        
+    }
+
+    ul#pick-card {
+        left: -12px;
+    }
+
+    
+
+    img {
+        width:100%;
+        
+    }
+
+    #video img {
+        
+        overflow : hidden;
+    }
+    
+    dd {
+        width:100%;
+    }
+
+    input,
+    button,
+    textarea {
+        
+        width: 100%!important;
+        box-sizing: border-box!important;
+    }
+
+    .feature-card {
+        margin:15px;
+        padding:0px;
+    }
+
+    #pick-content {
+        height: 100%;
+    }
+
+
+    #contact {
+        margin: 0 10px;
+    }
+    .contact-item {
+        display: initial!important;
+    }
+
+    .contact-text,
+    .contact-form {
+        width: 100%;
+        
+    }
+
+}
